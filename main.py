@@ -143,7 +143,7 @@ def buttonPress(last):
             draw_screen(text, 1, 1)
             # Type the text as key presses
             handle_mode_press(currentMode, btn)
-            time.st pull origleep(0.256)
+            time.sleep(0.256)
 
     # Key up
     if  (tempLast == BTN_DOWN and
