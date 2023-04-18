@@ -2,7 +2,7 @@
 
 This is a simple macropad built with Raspberry Pi Pico. See detailed description in my blog post at:
 
-[codeof.me/pikku-raspberry-pi-pico-powered-macropad](https://codeof.me/pikku-raspberry-pi-pico-powered-macropad)
+[www.codeof.me/pikku-raspberry-pi-pico-powered-macropad](https://www.codeof.me/pikku-raspberry-pi-pico-powered-macropad)
 
 ![Two macropads 3d printed with different colors](docs/Pikku_stack.jpg)
 
