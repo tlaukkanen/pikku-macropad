@@ -24,7 +24,7 @@ buttons = [
     digitalio.DigitalInOut(BTN5_PIN),
     digitalio.DigitalInOut(BTN6_PIN)
 ]
-for i in range(0,5):
+for i in range(0,6):
     buttons[i].direction = digitalio.Direction.INPUT
     buttons[i].pull = digitalio.Pull.DOWN
 
