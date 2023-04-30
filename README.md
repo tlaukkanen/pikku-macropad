@@ -1,8 +1,10 @@
 # Pikku - Raspberry Pi Pico Powered Macropad
 
 This is a simple macropad built with Raspberry Pi Pico. See detailed description in my blog post at:
+[www.codeof.me/pikku-raspberry-pi-pico-powered-macropad](https://www.codeof.me/pikku-raspberry-pi-pico-powered-macropad)
 
-[codeof.me/pikku-raspberry-pi-pico-powered-macropad](https://codeof.me/pikku-raspberry-pi-pico-powered-macropad)
+Make sure to like it at Printables too :)
+[https://www.printables.com/model/453228-pikku-macropad](https://www.printables.com/model/453228-pikku-macropad)
 
 ![Two macropads 3d printed with different colors](docs/Pikku_stack.jpg)
 
