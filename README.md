@@ -71,3 +71,15 @@ Case is constructed of three parts. All parts can be printed without support. Pa
 Dial uses the same base part but add different panels on top of that.
 
 ![3D model of the Pikku Dial case](docs/Pikku_Dial_stack.png)
+
+# FAQ
+
+## How to get rid of boot.py?
+
+If you copy the boot.py to your Pico then it won't show up as a separate drive. If you still have access to REPL on the device with e.g. Thonny then you can delete all the files with storage module. Try this in REPL and it'll erase the filesystem:
+
+```
+>>> import storage
+>>> storage.erase_filesystem()
+```
+Note! You lose all installed modules etc. so you have to start from scratch uploading all files to your Pico after this.
