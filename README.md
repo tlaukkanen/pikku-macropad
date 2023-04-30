@@ -1,10 +1,14 @@
-# Pikku - Raspberry Pi Pico Powered Macropad
+# Pikku - Raspberry Pi Pico Powered Macropad and Dial
 
 This is a simple macropad built with Raspberry Pi Pico. See detailed description in my blog post at:
+
 [www.codeof.me/pikku-raspberry-pi-pico-powered-macropad](https://www.codeof.me/pikku-raspberry-pi-pico-powered-macropad)
 
-Make sure to like it at Printables too :)
-[https://www.printables.com/model/453228-pikku-macropad](https://www.printables.com/model/453228-pikku-macropad)
+**New!** Wrote a short entry also for the Dial Controller:
+
+[www.codeof.me/pikku-dial-multi-mode-dial-controller](https://www.codeof.me/pikku-dial-multi-mode-dial-controller)
+
+![Pikku Dial and Macropad](docs/Pikku_Dial_and_Macropad.jpeg)
 
 ![Two macropads 3d printed with different colors](docs/Pikku_stack.jpg)
 
@@ -35,12 +39,35 @@ The active mode is displayed in a small SSD1306 display.
 
 ![Pikku macropad showing selected mode in display](docs/Pikku_display.jpg)
 
+## Dial
+
+Dial has simpler code. It'll use the KY-040 rotary encoder's switch function to switch between different modes. The current code includes four modes:
+
+- Volume up/down
+- Scroll up/down (as mouse wheel)
+- Arrow keys up/down
+- Fidget mode (doesn't do anything. Stress toy 😀)
+
 # Schematics
+
+## Macropad
 
 ![Circuit diagram of the Pikku macropad](docs/Pikku_circuit.png)
 
+## Dial
+
+![Circuit diagram of the Pikku Dial](docs/Pikku_Dial_circuit.png)
+
 # 3D Printed Case
+
+## Macropad
 
 Case is constructed of three parts. All parts can be printed without support. Parts snap-fit together without need for glue. STL files can be found from the [stl-files](stl-files/) folder.
 
 ![3D model of the Pikku macropad case](docs/Pikku_3D_case.png)
+
+## Dial
+
+Dial uses the same base part but add different panels on top of that.
+
+![3D model of the Pikku Dial case](docs/Pikku_Dial_stack.png)
