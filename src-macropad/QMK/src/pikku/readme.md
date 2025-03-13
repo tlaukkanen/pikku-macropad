@@ -1,7 +1,5 @@
 # QMK For Pikku Macropad
 
-![pikku](imgur.com image replace me!)
-
 This firmware adds support for VIAL (vial.rocks) for easy configuration of the macropad. 
 
 The code currently have default names for the layers based on the original firmware, and changing them is easy but requires re-compilation of the firmware and re-flashing.
