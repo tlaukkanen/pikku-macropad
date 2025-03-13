@@ -2,9 +2,12 @@
 
 ![pikku](imgur.com image replace me!)
 
-*A short description of the keyboard/project*
+This firmware adds support for VIAL (vial.rocks) for easy configuration of the macropad. It supports programmable layers with different labels that can be changes in the source.
 
-* 0MK-firmware Maintainer: [Hiddai](https://github.com/Biddai)
+To compile, I recommend following ![This file](https://www.youtube.com/watch?v=O8pdUPqPG3k)
+
+
+* QMK-firmware Maintainer: [Hiddai](https://github.com/Biddai)
 
 
 
