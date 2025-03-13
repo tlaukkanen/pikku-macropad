@@ -1,0 +1,38 @@
+{
+    "manufacturer": "Tommi L.",
+    "keyboard_name": "Pikku Macropad",
+    "maintainer": "Biddai",
+    "development_board": "promicro_rp2040",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+                    ["GP11", "GP12", "GP13"],
+                    ["GP18", "GP21", "GP20"]
+                ]
+    },
+    "url": "https://www.printables.com/model/453228-pikku-macropad",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0001",
+        "vid": "0x5049"
+    },
+    "layouts": {
+        "LAYOUT_default_2x3": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1}
+            ]
+        }
+    }
+}
