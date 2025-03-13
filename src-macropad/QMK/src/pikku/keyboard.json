@@ -13,8 +13,8 @@
     },
     "matrix_pins": {
         "direct": [
-                    ["GP11", "GP12", "GP13"],
-                    ["GP18", "GP21", "GP20"]
+                    ["GP6", "GP8", "GP12"],
+                    ["GP7", "GP10", "GP11"]
                 ]
     },
     "url": "https://www.printables.com/model/453228-pikku-macropad",
