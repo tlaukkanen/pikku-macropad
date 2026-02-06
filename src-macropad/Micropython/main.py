@@ -172,7 +172,6 @@ def draw_screen(text, x, y):
 def buttonPress(last):
     global currentMode
     tempLast = last
-    text = ""
     nextState = last
 
     # Check key 1 mode change
