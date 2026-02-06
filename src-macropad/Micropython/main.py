@@ -178,7 +178,7 @@ def buttonPress(last):
     if (tempLast == BTN_UP) and (buttons[0].value):
         nextState = BTN_DOWN
         currentMode += 1
-        if currentMode > COUNT_OF_MODES - 1:
+        if currentMode >= COUNT_OF_MODES:
             currentMode = 0
 
         draw_screen("", 1, 1)
