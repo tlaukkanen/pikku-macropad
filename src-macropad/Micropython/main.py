@@ -117,7 +117,7 @@ modes = [
         "functions": [
             {
                 "name": "Branch..",
-                "func": lambda: layout.write("git branch -b "),
+                "func": lambda: layout.write("git checkout -b "),
             },
             {
                 "name": "Checkout main",
