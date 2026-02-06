@@ -36,8 +36,8 @@ WIDTH = 128
 HEIGHT = 32
 
 # I2C pins
-SCL = 5
-SDA = 4
+SCL = board.GP5
+SDA = board.GP4
 
 BTN_DOWN = 1
 BTN_UP = 0
@@ -143,7 +143,7 @@ currentMode = 0
 COUNT_OF_MODES = len(modes)
 
 # Initialize I2C
-i2c = busio.I2C(scl=board.GP5, sda=board.GP4)
+i2c = busio.I2C(scl=SCL, sda=SDA)
 display = adafruit_ssd1306.SSD1306_I2C(WIDTH, HEIGHT, i2c)
 
 
