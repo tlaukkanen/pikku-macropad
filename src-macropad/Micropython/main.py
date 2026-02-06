@@ -146,6 +146,12 @@ COUNT_OF_MODES = len(modes)
 i2c = busio.I2C(scl=SCL, sda=SDA)
 display = adafruit_ssd1306.SSD1306_I2C(WIDTH, HEIGHT, i2c)
 
+# Warns if any func is outbounds the num. of buttons.
+NUM_FUNC_BUTTONS = NUM_BUTTONS - 1
+for mode in modes:
+    if len(mode["functions"]) > NUM_FUNC_BUTTONS:
+        print("[WARN] Mode", mode["name"], "has more functions than allowed by number of buttons available!")
+
 
 def handle_mode_press(mode, key):
     if mode < 0 or mode >= COUNT_OF_MODES:
